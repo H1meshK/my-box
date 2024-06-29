@@ -1,6 +1,5 @@
 // Import necessary libraries
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
 
 // Define the component
 const Contact = () => {
