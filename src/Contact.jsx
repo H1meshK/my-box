@@ -19,10 +19,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <motion.div
-      initial={{ y: '100%' }}
-      animate={{ y: isVisible ? '0%' : '100%' }}
-      transition={{ type: 'spring', damping: 20, stiffness: 100 }}
+    <div
       className="fixed bottom-0 left-0 w-full shadow-lg"
     >
       <div className='h-[535px] w-full bg-[#312656] rounded-t-3xl'>
@@ -41,7 +38,7 @@ const Contact = () => {
 <div className='rounded-[20px] border-[1px] border-[white] h-[40px] w-[130px] flex justify-center items-center text-white text-[35px] hover:bg-[#080808] transition-all ease duration-200 hover:border-[#080808] p-3 m-6'><a target='_blank' href="https://www.linkedin.com/in/himesh-kumar-47b8b2285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></div>
 </div>
 </div>
-    </motion.div>
+    </div>
   );
 };
 
