@@ -49,6 +49,7 @@ const Contact = () => {
 export default Contact;
 
 
+
 /* <div id='contact' className='h-[535px] w-full bg-[#312656] rounded-t-3xl'>
 <div className='flex justify-end pr-8  h-[50px] w-full text-white'>
   <a href="#home">Home</a>
