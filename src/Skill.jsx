@@ -1,0 +1,19 @@
+import React from 'react'
+
+function Skill({val}) {
+  return (
+      <div className='Skill group relative m-0 p-0 h-[240px] w-[100%] bg-[#131313] transition-all duration-300 ease-in-out hover:h-[280px]' style={{ '--hover-color': val.color }}>
+        <div className='flex justify-between items-center ml-20 mr-20'>
+          <p className='text-[50px] text-white font-["Josefin Sans"]'>{val.title}</p>
+          <div className='w-[400px] pt-8 text-white'>
+            <p className='leading-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, laborum. Sapiente debitis atque dolores esse iste vero aperiam nesciunt, quia voluptates iure, ipsa obcaecati ea? Quaerat ipsum nulla harum sapiente, officiis sunt aut magnam incidunt ab obcaecati quae animi debitis.</p>
+            <div className='Butt opacity-0 group-hover:opacity-100 transition-opacity duration-600 h-[30px] w-[100px] bg-slate-100 mt-5 rounded-[20px] items-center font-semibold flex justify-center'>
+              <a className='text-[18px] text-black' href="#">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  ) 
+}
+
+export default Skill
