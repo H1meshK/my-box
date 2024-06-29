@@ -1,11 +1,8 @@
 import React from 'react';
-import { motion } from "framer-motion";
 
-const ProjectCards = ({ title, description, hoverColor, reference, link }) => {
+const ProjectCards = ({ title, description, hoverColor, link }) => {
   return (
-    <motion.div
-      drag
-      dragConstraints={reference}
+    <div
       className='h-[250px] w-[220px] bg-[rgba(19,19,19,0.3)] rounded-2xl m-6 flex flex-col border-[1px] border-[rgba(233,233,233,0.3)] transition-all ease duration-200'
       style={{
         '--hover-bg-color': hoverColor,
@@ -24,7 +21,7 @@ const ProjectCards = ({ title, description, hoverColor, reference, link }) => {
           {description}
         </p>
       </a>
-    </motion.div>
+    </div>
   );
 };
 
