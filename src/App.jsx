@@ -10,6 +10,7 @@ import Slidedown from './Slidedown';
 import Review from './Review';
 import Projects from './Projects';
 import Type from './Type';
+import { motion } from 'framer-motion';
 
 function App() {
   return ( 
